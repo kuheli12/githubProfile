@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!--
+    Photon by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Kuheli Chowdhury</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <style>
+        .floatLeft {
+            float: left;
+        }
+
+        .floatRight {
+            float: right;
+        }
+        .small-box {
+            border-radius: 2px;
+            position: relative;
+            display: block;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+
+            .small-box > .inner {
+                padding: 10px;
+            }
+
+            .small-box > .small-box-footer {
+                position: relative;
+                text-align: center;
+                padding: 3px 0;
+                color: #fff;
+                color: rgba(255,255,255,0.8);
+                display: block;
+                z-index: 10;
+                background: rgba(0,0,0,0.1);
+                text-decoration: none;
+            }
+
+                .small-box > .small-box-footer:hover {
+                    color: #fff;
+                    background: rgba(0,0,0,0.15);
+                }
+
+            .small-box h3 {
+                font-size: 38px;
+                font-weight: bold;
+                margin: 0 0 10px 0;
+                white-space: nowrap;
+                padding: 0;
+            }
+
+            .small-box p {
+                font-size: 15px;
+            }
+
+                .small-box p > small {
+                    display: block;
+                    color: #f9f9f9;
+                    font-size: 13px;
+                    margin-top: 5px;
+                }
+
+            .small-box h3, .small-box p {
+                z-index: 5;
+            }
+
+            .small-box .icon {
+                -webkit-transition: all .3s linear;
+                -o-transition: all .3s linear;
+                transition: all .3s linear;
+                position: absolute;
+                top: 0px;
+                right: 10px;
+                z-index: 0;
+                font-size: 90px;
+                color: rgba(0,0,0,0.15);
+            }
+
+            .small-box:hover {
+                text-decoration: none;
+                color: #f9f9f9;
+            }
+
+                .small-box:hover .icon {
+                    font-size: 95px;
+                }
+
+        /*@media (max-width:767px) {
+            .small-box {
+                text-align: center;
+            }
+
+                .small-box .icon {
+                    display: none;
+                }
+
+                .small-box p {
+                    font-size: 12px;
+                }
+        }*/
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <div class="inner">
+            <span class="icon major fa-cloud"></span>
+            <h1>
+                Hi, I'm <strong>Kuheli Chowdhury</strong>, currently working <br />
+                as Programmer Analyst Trainee with <a href="https://www.cognizant.com/">Cognizant Technology Solutions</a>.
+            </h1>
+            <p>
+                Have been trained as a <strong>Full Stack Developer</strong><br />
+                under the domain of Dot Net
+            </p>
+            <ul class="actions">
+                <li><a href="#one" class="button scrolly">About Me</a></li>
+                <li><a href="#two" class="button scrolly">Education</a></li>
+                <li><a href="#three" class="button scrolly">Skills</a></li>
+                <li><a href="#four" class="button scrolly">Interests</a></li>
+                <li><a href="#five" class="button scrolly">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="main style1">
+        <div class="container">
+            <div class="row 150%">
+                <div class="6u 12u$(medium)">
+                    <header class="major">
+                        <h2>
+                           About Me
+                        </h2>
+                    </header>
+                    <p>I completed my B-Tech Degree in the field of Computer Science. After passing from college in the
+                    year of 2016, I joined CTS .<br /> During training period I worked on a project 'Bug Tracking System'
+                    using ASP Dot Net,MSSQL. The application was designed for internal use where an Admin assigns project to manager.
+                    And the manager testers and developer to the project to do their respective works. Tester raises the bugs,
+                    the developer provides solution for those bugs<br />
+                    After that I was also a part of a Learning Portal Project of Cognizant,
+                        <a href="https://compe10cy.cognizant.com/">Comepe10cy.</a> It is a self learning portal where 
+                    a candidate can register himself and choose a course. After practicing multiple session on E-box(course portal),
+                    he can certify himself in corresponding course by giving Examination.</p>
+                </div>
+                <div class="6u$ 12u$(medium) important(medium)">
+                    <span class="image fit"><img src="images/photo.jpg" alt="" /></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      
+
+
+    <!-- Two -->
+    <section id="two" class="main" style="background-color: #E1F5FE">
+        <div class="container">
+            <header class="major">
+                <h2>
+                    Education Details
+                </h2>
+            </header>
+            <div class="row">
+                <div class="col-lg-4 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box" style="background-color: #00a7d0;">
+                        <div class="inner">
+                            <h3>72%</h3>
+                            <p>Secondary Examination</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-certificate"></i>
+                        </div>
+                        <!--<a href="/Home/Courses" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>-->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box" style="background-color: #00a7d0;">
+                        <div class="inner">
+                            <h3>78%</h3>
+                            <p>Higher Secondary Examination</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-university"></i>
+                        </div>
+                        <!--<a href="/Home/Courses" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>-->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box" style="background-color: #00a7d0;">
+                        <div class="inner">
+                            <h3>82%</h3>
+                            <p>B-Tech (CSE)</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <!--<a href="/Home/Courses" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="main style1 special">
+        <div class="container" style="color:black;">
+            <header class="major">
+                <h2>Technical Skills</h2>
+            </header>
+            <p>As a part of FSD team, I learned about different layer's coding language.</p>
+           
+            <div class="container">
+
+                <h3 class="text-left">HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-danger text-center" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 70%; background-color: #5C6BC0">
+                        70%
+                    </div>
+                </div>
+                <br />
+
+                <h3 class="text-left">CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-danger" role="progressbar" aria-valuenow="65"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 65%; background-color: #9575CD">
+                        65%
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">BOOTSTRAP</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="60"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: #616161">
+                        60%
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">JAVASCRIPT</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-info" role="progressbar" aria-valuenow="60"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 60%; background-color: #26A69A">
+
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">JQUERY</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-info " role="progressbar" aria-valuenow="55"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 55%; background-color: #4FC3F7">
+                        55%
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">ANGULAR JS</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active  progress-bar-warning" role="progressbar" aria-valuenow="50"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: #9CCC65; ">
+                        50%
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">C#</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-success" role="progressbar" aria-valuenow="80"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: #388E3C">
+                        80%
+                    </div>
+                </div><br />
+
+                <h3 class="text-left">ASP .NET</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="70" style="width: 70%; background-color: #FF7043">
+                        70%
+                    </div>
+                </div>
+                <h3 class="text-left">MVC</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="55" style="width: 55%; background-color: #8D6E63">
+                        55%
+                    </div>
+                </div>
+                <h3 class="text-left">ENTITY FRAMEWORK</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="50" style="width: 50%; background-color: #607D8B">
+                        50%
+                    </div>
+                </div>
+                <h3 class="text-left">SQL SERVER</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="70" style="width: 70%; background-color: #9CCC65">
+                        70%
+                    </div>
+                </div>
+                <h3 class="text-left">WEB API</h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="30" style="width: 30%; background-color: #FF9800">
+                       30%
+                    </div>
+                </div>
+
+
+</div><br /> 
+        </div>
+    </section>
+
+    <!-- Four -->
+
+    <section id="four" class="main style2">
+        <div class="container">
+            <header class="major">
+                <h2>Other Interests</h2>
+            </header>
+            <div class="row 150%">
+                <div class="6u 12u$(medium)">
+                    <ul class="major-icons">
+                        <li><span class="icon style1 major fa-code"></span></li>
+                        <li><span class="icon style2 major fa-book"></span></li>
+                        <li><span class="icon style3 major fa-camera-retro"></span></li>
+                        <li><span class="icon style4 major fa-plane"></span></li>
+                        <li><span class="icon style5 major fa-television"></span></li>
+                        <li><span class="icon style6 major fa-facebook"></span></li>
+                    </ul>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <header class="major">
+                        <h2>
+                            Field of Interests
+                        </h2>
+                    </header>
+                    <p>"All works and no play made Jack a dull boy" - The proverb is true. </p>
+                    <p>So apart from Technical World, there are a lot of things that attract my interest. Like </p>
+                    <p>Playing chess, badminton. Reading story books of different genres.</p>
+                    <p>Going on adventurous trips, photography of beautiful scenaries</p>
+                    <p>Exploring and writing in Quora. Reading news.</p>
+                    <p>Also active in social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="five" class="main style3 special" style="color: white; background-color: #BDBDBD; ">
+        <style>
+            .floatLeft {
+                float: left;
+            }
+
+            .floatRight {
+                float: right;
+            }
+
+            .boxborder {
+                border: 1px solid;
+                width: 780px;
+                height: 500px;
+                /*border-radius:10px;*/
+                margin: auto;
+                padding-left: 10px;
+                /*position: absolute;*/
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: white;
+            }
+
+
+            .grad {
+                margin-left: -10px;
+                background-color: #009688;
+                padding: 0.5rem 0rem 0.5rem 0%;
+                
+            }
+        </style>
+        <div class="container" style="color:black;">
+
+            <div class="background">
+
+                <div class="boxborder">
+                    <div class="head grad">
+                        <h3 style="color: white;">Contact Details</h3>
+                    </div>
+                    <br />
+       
+                    <div class="row" style="text-align:left;padding-left:50px">
+                       <b> Contact No :</b> 9038015341
+                    </div>
+                    <br />
+
+                    <div class="row" style="text-align:left;padding-left:50px">
+                       <b> Present Address : </b> L3 , Mistral Apartment, Shollingnalur. Chennai- 600119.
+                    </div>
+                    <br />
+                    <div class="row" style="text-align:left;padding-left:50px">
+                        <b>Permanent Address :</b> 2C,Kalighat Park South Road. Kolkata- 700026
+                    </div>
+                    <br />
+                    <div class="row" style="text-align:left;padding-left:50px">
+                       <b>Email Address :</b> chowdhury.kuheli@gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
